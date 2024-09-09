@@ -98,8 +98,7 @@ public class Inventory
     public boolean isFull()
     {
         // Replace the next line
-        // return false;
-        return this.utilizedSlots() >= this.capacity;
+        return this.utilizedSlots() == this.capacity;
     }
 
     /**
